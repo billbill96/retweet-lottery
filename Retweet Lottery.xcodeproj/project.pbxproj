@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33A1D745259B597600B70C7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1D744259B597600B70C7E /* AppDelegate.swift */; };
+		33A1D747259B597600B70C7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1D746259B597600B70C7E /* SceneDelegate.swift */; };
+		33A1D749259B597600B70C7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1D748259B597600B70C7E /* ViewController.swift */; };
+		33A1D74C259B597600B70C7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A1D74A259B597600B70C7E /* Main.storyboard */; };
+		33A1D74E259B597900B70C7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A1D74D259B597900B70C7E /* Assets.xcassets */; };
+		33A1D751259B597900B70C7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A1D74F259B597900B70C7E /* LaunchScreen.storyboard */; };
+		33A1D75C259B597900B70C7E /* Retweet_LotteryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1D75B259B597900B70C7E /* Retweet_LotteryTests.swift */; };
+		33A1D767259B597900B70C7E /* Retweet_LotteryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1D766259B597900B70C7E /* Retweet_LotteryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33A1D758259B597900B70C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33A1D739259B597600B70C7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A1D740259B597600B70C7E;
+			remoteInfo = "Retweet Lottery";
+		};
+		33A1D763259B597900B70C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33A1D739259B597600B70C7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A1D740259B597600B70C7E;
+			remoteInfo = "Retweet Lottery";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33A1D741259B597600B70C7E /* Retweet Lottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Retweet Lottery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A1D744259B597600B70C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33A1D746259B597600B70C7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		33A1D748259B597600B70C7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33A1D74B259B597600B70C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33A1D74D259B597900B70C7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33A1D750259B597900B70C7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33A1D752259B597900B70C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A1D757259B597900B70C7E /* Retweet LotteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retweet LotteryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A1D75B259B597900B70C7E /* Retweet_LotteryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retweet_LotteryTests.swift; sourceTree = "<group>"; };
+		33A1D75D259B597900B70C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A1D762259B597900B70C7E /* Retweet LotteryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retweet LotteryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A1D766259B597900B70C7E /* Retweet_LotteryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retweet_LotteryUITests.swift; sourceTree = "<group>"; };
+		33A1D768259B597900B70C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33A1D73E259B597600B70C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A1D754259B597900B70C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A1D75F259B597900B70C7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33A1D738259B597600B70C7E = {
+			isa = PBXGroup;
+			children = (
+				33A1D743259B597600B70C7E /* Retweet Lottery */,
+				33A1D75A259B597900B70C7E /* Retweet LotteryTests */,
+				33A1D765259B597900B70C7E /* Retweet LotteryUITests */,
+				33A1D742259B597600B70C7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33A1D742259B597600B70C7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33A1D741259B597600B70C7E /* Retweet Lottery.app */,
+				33A1D757259B597900B70C7E /* Retweet LotteryTests.xctest */,
+				33A1D762259B597900B70C7E /* Retweet LotteryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33A1D743259B597600B70C7E /* Retweet Lottery */ = {
+			isa = PBXGroup;
+			children = (
+				33A1D744259B597600B70C7E /* AppDelegate.swift */,
+				33A1D746259B597600B70C7E /* SceneDelegate.swift */,
+				33A1D748259B597600B70C7E /* ViewController.swift */,
+				33A1D74A259B597600B70C7E /* Main.storyboard */,
+				33A1D74D259B597900B70C7E /* Assets.xcassets */,
+				33A1D74F259B597900B70C7E /* LaunchScreen.storyboard */,
+				33A1D752259B597900B70C7E /* Info.plist */,
+			);
+			path = "Retweet Lottery";
+			sourceTree = "<group>";
+		};
+		33A1D75A259B597900B70C7E /* Retweet LotteryTests */ = {
+			isa = PBXGroup;
+			children = (
+				33A1D75B259B597900B70C7E /* Retweet_LotteryTests.swift */,
+				33A1D75D259B597900B70C7E /* Info.plist */,
+			);
+			path = "Retweet LotteryTests";
+			sourceTree = "<group>";
+		};
+		33A1D765259B597900B70C7E /* Retweet LotteryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33A1D766259B597900B70C7E /* Retweet_LotteryUITests.swift */,
+				33A1D768259B597900B70C7E /* Info.plist */,
+			);
+			path = "Retweet LotteryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33A1D740259B597600B70C7E /* Retweet Lottery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A1D76B259B597900B70C7E /* Build configuration list for PBXNativeTarget "Retweet Lottery" */;
+			buildPhases = (
+				33A1D73D259B597600B70C7E /* Sources */,
+				33A1D73E259B597600B70C7E /* Frameworks */,
+				33A1D73F259B597600B70C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Retweet Lottery";
+			productName = "Retweet Lottery";
+			productReference = 33A1D741259B597600B70C7E /* Retweet Lottery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33A1D756259B597900B70C7E /* Retweet LotteryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A1D76E259B597900B70C7E /* Build configuration list for PBXNativeTarget "Retweet LotteryTests" */;
+			buildPhases = (
+				33A1D753259B597900B70C7E /* Sources */,
+				33A1D754259B597900B70C7E /* Frameworks */,
+				33A1D755259B597900B70C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A1D759259B597900B70C7E /* PBXTargetDependency */,
+			);
+			name = "Retweet LotteryTests";
+			productName = "Retweet LotteryTests";
+			productReference = 33A1D757259B597900B70C7E /* Retweet LotteryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33A1D761259B597900B70C7E /* Retweet LotteryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A1D771259B597900B70C7E /* Build configuration list for PBXNativeTarget "Retweet LotteryUITests" */;
+			buildPhases = (
+				33A1D75E259B597900B70C7E /* Sources */,
+				33A1D75F259B597900B70C7E /* Frameworks */,
+				33A1D760259B597900B70C7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A1D764259B597900B70C7E /* PBXTargetDependency */,
+			);
+			name = "Retweet LotteryUITests";
+			productName = "Retweet LotteryUITests";
+			productReference = 33A1D762259B597900B70C7E /* Retweet LotteryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33A1D739259B597600B70C7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					33A1D740259B597600B70C7E = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					33A1D756259B597900B70C7E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 33A1D740259B597600B70C7E;
+					};
+					33A1D761259B597900B70C7E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 33A1D740259B597600B70C7E;
+					};
+				};
+			};
+			buildConfigurationList = 33A1D73C259B597600B70C7E /* Build configuration list for PBXProject "Retweet Lottery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33A1D738259B597600B70C7E;
+			productRefGroup = 33A1D742259B597600B70C7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33A1D740259B597600B70C7E /* Retweet Lottery */,
+				33A1D756259B597900B70C7E /* Retweet LotteryTests */,
+				33A1D761259B597900B70C7E /* Retweet LotteryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33A1D73F259B597600B70C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A1D751259B597900B70C7E /* LaunchScreen.storyboard in Resources */,
+				33A1D74E259B597900B70C7E /* Assets.xcassets in Resources */,
+				33A1D74C259B597600B70C7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A1D755259B597900B70C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A1D760259B597900B70C7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33A1D73D259B597600B70C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A1D749259B597600B70C7E /* ViewController.swift in Sources */,
+				33A1D745259B597600B70C7E /* AppDelegate.swift in Sources */,
+				33A1D747259B597600B70C7E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A1D753259B597900B70C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A1D75C259B597900B70C7E /* Retweet_LotteryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A1D75E259B597900B70C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A1D767259B597900B70C7E /* Retweet_LotteryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33A1D759259B597900B70C7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A1D740259B597600B70C7E /* Retweet Lottery */;
+			targetProxy = 33A1D758259B597900B70C7E /* PBXContainerItemProxy */;
+		};
+		33A1D764259B597900B70C7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A1D740259B597600B70C7E /* Retweet Lottery */;
+			targetProxy = 33A1D763259B597900B70C7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33A1D74A259B597600B70C7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A1D74B259B597600B70C7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33A1D74F259B597900B70C7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A1D750259B597900B70C7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33A1D769259B597900B70C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33A1D76A259B597900B70C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33A1D76C259B597900B70C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XCP7BV3NW;
+				INFOPLIST_FILE = "Retweet Lottery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.billbill.retweet.lottery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33A1D76D259B597900B70C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XCP7BV3NW;
+				INFOPLIST_FILE = "Retweet Lottery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.billbill.retweet.lottery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33A1D76F259B597900B70C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XCP7BV3NW;
+				INFOPLIST_FILE = "Retweet LotteryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "billbill.Retweet-LotteryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Retweet Lottery.app/Retweet Lottery";
+			};
+			name = Debug;
+		};
+		33A1D770259B597900B70C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XCP7BV3NW;
+				INFOPLIST_FILE = "Retweet LotteryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "billbill.Retweet-LotteryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Retweet Lottery.app/Retweet Lottery";
+			};
+			name = Release;
+		};
+		33A1D772259B597900B70C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XCP7BV3NW;
+				INFOPLIST_FILE = "Retweet LotteryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "billbill.Retweet-LotteryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Retweet Lottery";
+			};
+			name = Debug;
+		};
+		33A1D773259B597900B70C7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XCP7BV3NW;
+				INFOPLIST_FILE = "Retweet LotteryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "billbill.Retweet-LotteryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Retweet Lottery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33A1D73C259B597600B70C7E /* Build configuration list for PBXProject "Retweet Lottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A1D769259B597900B70C7E /* Debug */,
+				33A1D76A259B597900B70C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A1D76B259B597900B70C7E /* Build configuration list for PBXNativeTarget "Retweet Lottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A1D76C259B597900B70C7E /* Debug */,
+				33A1D76D259B597900B70C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A1D76E259B597900B70C7E /* Build configuration list for PBXNativeTarget "Retweet LotteryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A1D76F259B597900B70C7E /* Debug */,
+				33A1D770259B597900B70C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A1D771259B597900B70C7E /* Build configuration list for PBXNativeTarget "Retweet LotteryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A1D772259B597900B70C7E /* Debug */,
+				33A1D773259B597900B70C7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33A1D739259B597600B70C7E /* Project object */;
+}
